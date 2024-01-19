@@ -183,6 +183,19 @@ a {
 .project-title p {
   color: #c5c5c5;
 }
+.project-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-link:hover{
+  cursor: pointer;
+  text-decoration: underline white;
+}
+.project-link img{
+  width:16px;
+  height:15px;
+}
 
 .heading-experience {
   background: var(
