@@ -15,6 +15,7 @@ header {
   position: fixed;
   width: 100%;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -166,9 +167,9 @@ a {
   border-radius: 18px;
   margin: 20px;
 }
-.project-item img{
-  width:320px;
-  height:230px;
+.project-item img {
+  width: 320px;
+  height: 230px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
@@ -183,18 +184,18 @@ a {
 .project-title p {
   color: #c5c5c5;
 }
-.project-link{
+.project-link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.project-link:hover{
+.project-link:hover {
   cursor: pointer;
   text-decoration: underline white;
 }
-.project-link img{
-  width:16px;
-  height:15px;
+.project-link img {
+  width: 16px;
+  height: 15px;
 }
 
 .heading-experience {
@@ -253,4 +254,37 @@ footer p {
 
 .email-container img {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar div {
+    padding: 10px 0;
+  }
+
+  .navbar a {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+  }
 }
